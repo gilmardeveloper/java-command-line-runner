@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public interface Commands {
 	
-	void exec(String cmd, Scanner imput);
+	String getCommand();
+	
+	Scanner getInput();
 
 }
